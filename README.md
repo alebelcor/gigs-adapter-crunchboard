@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [CrunchBoard](https://www.crunchboard.com)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-crunchboard/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-crunchboard)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-crunchboard.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-crunchboard)
 
 ## Install
 
