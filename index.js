@@ -9,9 +9,7 @@ const getGigs = require('./lib/get-gigs');
 
 const ADAPTER_ENDPOINT = 'https://www.crunchboard.com/jobs.atom';
 
-module.exports = function gigsAdapterCrunchboard(options) {
-  options = options || {};
-
+module.exports = function gigsAdapterCrunchboard() {
   return got.get(ADAPTER_ENDPOINT, getGotOptions())
     .then(getResponseBody)
     .then(getJson)

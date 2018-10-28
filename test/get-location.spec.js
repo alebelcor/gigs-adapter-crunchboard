@@ -11,6 +11,7 @@ test('it should return the location', t => {
 
 test('it should return null', t => {
   t.deepEqual(null, getLocation({}));
-  t.deepEqual(null, getLocation({title: 'Developer (Remote, OR, United States)'}));
-  t.deepEqual(null, getLocation({title: 'Developer (Anywhere / Remote / Vancouver)'}));
+  t.deepEqual(null, getLocation({title: 'Developer at Foo Inc. (Remote, OR, United States)'}));
+  t.deepEqual(null, getLocation({title: 'Developer at Bar LLC (Anywhere / Remote / Vancouver)'}));
+  t.deepEqual(null, getLocation({title: 'Developer at Foobar Inc. (San Jose, California (Remote position))'}));
 });
