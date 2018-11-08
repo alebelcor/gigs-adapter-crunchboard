@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getUrl from '../lib/get-url';
 
 test('it should return the url', t => {
